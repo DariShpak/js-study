@@ -71,8 +71,8 @@
 // 1 - 20дол, 2 - 30 дол, 3 - 50 дол, 4 - 70 дол, 5 - 120 дол
 // Якщо в змінній stars щось окрім чисел 1-5, виведи строку "Такого типу готелю немає"
 
-const stars = 8
-let price
+// const stars = 8
+// let price
 
 // if (stars === 1) {
 //   price = 20;
@@ -247,7 +247,6 @@ let price
 //   return message
 // }
 
-
 // function getNameLength(name) {
 //   const message = `Name ${name} is ${name.length} characters long`; // Change this line
 
@@ -255,3 +254,268 @@ let price
 // }
 // getNameLength('Daria')
 // getNameLength('Bob')
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//   // Change code below this line
+
+//   // const words = message;
+//   const messageAsArray = message.split(" ");
+//   console.log(messageAsArray.length * pricePerWord);
+
+//   // words.split()
+
+//   // Change code above this line
+// }
+
+// calculateEngravingPrice(
+//   calculateEngravingPrice("JavaScript is in my blood", 10)
+// )
+
+// function makeStringFromArray(array, delimiter) {
+//   let string
+//   // Change code below this line
+//   string = array.join(delimiter)
+
+//   // Change code above this line
+//   console.log(string);
+//   return string;
+// }
+
+// makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " ")
+// makeStringFromArray(["M", "a", "n", "g", "o"], "")
+// makeStringFromArray(["top", "picks", "for", "you"], "_")
+
+// function slugify(title) {
+//   // Change code below this line
+//   const slug = title.toLowerCase(title).split(" ")
+
+//     // .replaceAll(" ", "-")
+
+// console.log(slug.join("-"))
+//   return slug;
+//   // Change code above this line
+// }
+
+// slugify("Arrays for begginers")
+// slugify("English for developer")
+// slugify("Ten secrets of JavaScript")
+// slugify("How to become a JUNIOR developer in TWO WEEKS")
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2)
+// console.log(firstTwoEls);
+// const nonExtremeEls = fruits.slice(1 , fruits.length - 1);
+// console.log(nonExtremeEls);
+// const lastThreeEls = fruits.slice(-3);
+// console.log(lastThreeEls);
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+// console.log(allClients);
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//   const newArray = firstArray.concat(secondArray)
+
+//   if (newArray.length >= maxLength) {
+//    console.log(newArray.slice(0, maxLength));
+//     return newArray.slice(0, maxLength)
+//       ;
+//   }
+
+// }
+// makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)
+// makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)
+// makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) {
+//   console.log(i);
+// }
+
+// function calculateTotal(number) {
+//   // Change code below this line
+// let sum = 0
+// for (let i = 1; i <= number; i += 1) {
+//   sum += i
+// }
+// return sum
+
+//   // Change code above this line
+// }
+
+// console.log(calculateTotal(1))
+// console.log(calculateTotal(3))
+// console.log(calculateTotal(7))
+// console.log(calculateTotal(18))
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// function calculateTotalPrice(order) {
+//   let total = 0
+//   // Change code below this line
+//   for (let i = 0; i < order.length; i += 1) {
+//     total += order[i]
+//   }
+//   // Change code above this line
+//   return total
+// }
+// console.log(calculateTotalPrice([12, 85, 37, 4]))
+// console.log(calculateTotalPrice([164, 48, 291]))
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]))
+// const word = "home"
+// console.log(word.length)
+
+// function findLongestWord(string) {
+//   // Change code below this line
+//   const words = string.split(" ")
+//   let longestWord = ""
+
+//   // Ітеруємося по кожному слову в масиві та знаходимо найдовше слово
+//   for (let i = 0; i < words.length; i++) {
+//     if (words[i].length > longestWord.length) {
+//       longestWord = words[i]
+//     }
+//   }
+
+//   return longestWord
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"))
+// console.log(findLongestWord("Google do a roll"))
+// console.log(findLongestWord("May the force be with you"))
+
+// const genres = ["Jazz", "Blues"]
+// genres.push("Rock-N-Roll")
+
+// // console.log(genres[genres.length - 1])
+
+
+// console.log(genres.splice(0, 1))
+
+
+
+// const values = '8, 11'
+// const result = values.split(" ")
+// console.log(result)
+
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = []
+//   // Change code below this line
+//   for (let i = min; i <= max; i++) {
+//     numbers.push(i);
+//   }
+//   // Change code above this line
+//   return numbers
+// }
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   let filteredNumbers = []
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       filteredNumbers.push(numbers[i])
+//     }
+//     // Change code above this line
+//   }
+
+//   return filteredNumbers
+// }
+
+// console.log(filterArray([1, 2, 3, 4, 5], 3))
+// filterArray([1, 2, 3, 4, 5], 4)
+// filterArray([1, 2, 3, 4, 5], 5)
+// filterArray([12, 24, 8, 41, 76], 38)
+// filterArray([12, 24, 8, 41, 76], 20)
+
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+
+//   return fruits.includes(fruit) ? true : false; // Change this line
+// }
+
+// console.log(checkFruit("plum"))
+// console.log(checkFruit("mandarin"))
+
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//   for (i of order) {
+//   total += i
+//   }
+//   // Change code above this line
+//   return total
+//   // for (let i = 0; i < order.length; i += 1) {
+//   //   total += order[i]
+//   // }
+
+//   // Change code above this line
+//   return 
+// }
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]))
+// console.log(calculateTotalPrice([164, 48, 291]))
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = []
+
+//   // for (let i = 0; i < numbers.length; i += 1) {
+//   for (const number of numbers) {
+
+//     if (number > value) {
+//       filteredNumbers.push(number)
+//     }
+//   }
+
+//   return filteredNumbers
+//   // Change code above this line
+// }
+// console.log(filterArray([1, 2, 3, 4, 5], 3))
+
+// function getEvenNumbers(start, end) {
+//   // Change code below this line
+//   const evenNumbers = []
+
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % 2 === 0) {
+//       evenNumbers.push(i)
+//     }
+//   }
+//   // Change code above this line
+//   return evenNumbers
+//   // Change code above this line
+// }
+
+// console.log(getEvenNumbers(2, 5))
+// console.log(getEvenNumbers(3, 11))
+// console.log(getEvenNumbers(6, 12))
+
+function includes(array, value) {
+  // Change code below this line
+  let result = array.includes(value); 
+  
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] === value) {
+      return result = true;
+    }
+  }
+  // Change code above this line
+}
+console.log(includes([1, 2, 3, 4, 5], 3))

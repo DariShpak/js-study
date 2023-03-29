@@ -280,24 +280,31 @@
 
 // console.log("Операція завершена")
 
-const totalSpent = 50
-let payment = 800
-let discount = 0
+// let totalSpent = 2000
+// let payment = 500
+// let discount = 0
 
-if (totalSpent < 100) {
-  console.log("Ви ще не маєте партнерської знижки")
-  discount = 0
-} else if (totalSpent > 100 && totalSpent < 1000) {
-  console.log("Бронзовий партнер, знижка 2%")
-  discount = 0.02
-} else if (totalSpent > 1000 && totalSpent < 5000) {
-  console.log("Срібний партнер, знижка 5%")
-  discount = 0.05
-} else {
-  console.log("Золотий партнер, знижка 10%")
-  discount = 0.1
-}
+// if (totalSpent < 100) {
+//   console.log("Ви ще не маєте партнерської знижки")
+//   discount = 0
+// } else if (totalSpent > 100 && totalSpent < 1000) {
+//   console.log("Бронзовий партнер, знижка 2%")
+//   discount = 0.02
+// } else if (totalSpent > 1000 && totalSpent < 5000) {
+//   console.log("Срібний партнер, знижка 5%")
+//   discount = 0.05
+// } else {
+//   console.log("Золотий партнер, знижка 10%")
+//   discount = 0.1
+// }
 
-console.log(
-  `Оформлюємо замовлення на суму ${payment} зі знижкою ${discount * 100} %`
-)
+// payment-= payment * discount
+// // payment = payment - payment * discount
+
+// console.log(
+//   `Оформлюємо замовлення на суму ${payment} зі знижкою ${discount * 100} %`
+// )
+
+// totalSpent += payment;
+
+// console.log(`totalSpent = ${totalSpent}`)
