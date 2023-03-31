@@ -507,15 +507,15 @@
 // console.log(getEvenNumbers(3, 11))
 // console.log(getEvenNumbers(6, 12))
 
-function includes(array, value) {
-  // Change code below this line
-  let result = array.includes(value); 
+// function includes(array, value) {
+//   // Change code below this line
+//   let result = array.includes(value); 
   
-  for (let i = 0; i < array.length; i += 1) {
-    if (array[i] === value) {
-      return result = true;
-    }
-  }
-  // Change code above this line
-}
-console.log(includes([1, 2, 3, 4, 5], 3))
+//   for (let i = 0; i < array.length; i += 1) {
+//     if (array[i] === value) {
+//       return result = true;
+//     }
+//   }
+//   // Change code above this line
+// }
+// console.log(includes([1, 2, 3, 4, 5], 3))
